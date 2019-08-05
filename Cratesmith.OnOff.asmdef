@@ -1,8 +1,7 @@
 {
     "name": "Cratesmith.OnOff",
     "references": [
-        "Cratesmith.Utils",
-        "GUID:6309a96dc4f2d024b93bde8201850125"
+        "Cratesmith.Utils"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
