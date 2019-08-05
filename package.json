@@ -1,0 +1,17 @@
+{
+	"name": "com.cratesmith.onoff",
+	"displayName": "Cratesmith.OnOff",
+	"description": "A system for handling UI object activation state in Unity3d",
+	"version": "0.0.1-develop",
+	"unity": "2018.3",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cratesmith/Cratesmith.OnOff.git"
+	},
+	"src": "Packages/Cratesmith.OnOff",
+	"author": "Kieran Lord <cratesmith@cratesmith.com> (https://github.com/cratesmith)",
+	"dependencies": {
+		"com.cratesmith.utils": "https://github.com/Cratesmith/Cratesmith.Utils#0.0.1-develop",
+	}
+}
