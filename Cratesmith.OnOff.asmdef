@@ -1,6 +1,7 @@
 {
     "name": "Cratesmith.OnOff",
     "references": [
+        "Cratesmith.Collections",
         "Cratesmith.Utils"
     ],
     "optionalUnityReferences": [],
