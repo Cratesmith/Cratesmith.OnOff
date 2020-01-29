@@ -31,7 +31,12 @@ namespace Cratesmith.OnOff
 	    }
 #endif
 
-        public void SetState(OnOff newState, bool immediate=false)
+	    public void SetState(OnOff newState)
+	    {
+		    SetState(newState,false);
+	    }
+
+        public void SetState(OnOff newState, bool immediate)
 		{
 			if (newState == m_currentState)
 			{

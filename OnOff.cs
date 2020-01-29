@@ -88,7 +88,12 @@ namespace Cratesmith.OnOff
             FinishTransition(true);
         }
 
-        public void Switch(bool newState, Action<OnOff> onComplete=null)
+        public void Switch(bool newState)
+        {
+            Switch(newState, false);
+        }
+
+        public void Switch(bool newState, Action<OnOff> onComplete)
         {
             Switch(newState, false, onComplete);
         }

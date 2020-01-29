@@ -2,7 +2,7 @@
 	"name": "com.cratesmith.onoff",
 	"displayName": "Cratesmith.OnOff",
 	"description": "A system for handling UI object activation state in Unity3d",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"unity": "2018.3",
 	"license": "MIT",
 	"repository": {
